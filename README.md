@@ -9,12 +9,16 @@ but keep been gradually improved. Apologies for possible mistakes and missing
 references.
 
 It is important to mention that the Python codes were
-inspired by the "Tutorial TensorFlow" provided by TensorFlow Core by TensorFlow authors
-which is available at:
+inspired by the "Tutorial TensorFlow" provided by TensorFlow Core by TensorFlow authors. 
+Modifications have been made on the original code for educational reasons and 
+Python compatibility. Further information and more tutorials are available at:
+
 https://www.tensorflow.org/tutorials
 
-Modifications have been made on the original code for educational reasons and 
-Python compatibility.
+and 
+
+https://github.com/tensorflow/examples
+
 
 Getting started
 ---------------
@@ -41,12 +45,13 @@ Dependencies
 * python >= 3.6
 * numpy
 * matplotlib
-* scikit-image
 * scipy
 * Tensorflow
+* Tensorflow-datasets
+* Tensorflow_hub
 * Keras
 
 If you do not have such packages installed, I recommend the installation via pip install:
 
-pip3 install --user numpy, ipython, matplotlib, scikit-image, scipy, tensorflow, tensorflow-datasets, keras
+pip3 install --user numpy, ipython, matplotlib, scipy, tensorflow, tensorflow-datasets, tensorflow_hub, keras
 
